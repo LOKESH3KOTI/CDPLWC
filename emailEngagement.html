@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+        
+        <h1 style="color:#000000; height:45px;" class="slds-page-header__title slds-truncate">
+            &nbsp;&nbsp;<b>Email Engagement</b></font></h1>
+            <lightning-datatable
+                key-field="ssot__IndividualId__c"
+                data={record}
+                columns={columns}
+                hide-checkbox-column 
+                show-row-number-column
+            >
+            </lightning-datatable>
+    </lightning-card>
+</template>
